@@ -163,3 +163,77 @@ li {
     text-align: center;
     font-family: Barlow;
 }
+
+
+/* features styles */
+
+.features .feature--container {
+    position: relative;
+}
+
+.features .choose {
+    padding-top: 100px;
+    width: 100%;
+    height: 577px;
+    background-color: #293039;
+    position: absolute;
+}
+
+.features .feature--title {
+    color: var(--white-text);
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.features .feature--desc {
+    color: var(--white-text);
+    text-align: center;
+    font-family: Barlow;
+    opacity: 0.8;
+}
+
+.features .features--cards ul {
+    position: absolute;
+    top: 346px;
+    display: flex;
+    gap: 30px;
+    margin-left: 85px;
+}
+
+.features .features--cards .card {
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    background: #0E8784;
+    padding: 72px 48px 48px 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .features--cards .card3 {
+    padding-top: 90px;
+}
+
+.features .features--cards .card img {
+    margin-bottom: 56px;
+}
+
+.features .features--cards .card .title {
+    color: var(--white-text);
+    text-align: center;
+    font-family: Fraunces;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.features .features--cards .card .desc {
+    color: var(--white-text);
+    text-align: center;
+    font-family: Barlow;
+}
