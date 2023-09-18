@@ -62,3 +62,38 @@ a {
 .header .header--nav a:hover {
     color: var(--second-grey-text);
 }
+
+
+/* hero styles */
+
+.hero {
+    background-image: url(../images/Bitmap.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 115px 0 116px 85px;
+}
+
+.hero .hero--title {
+    color: #FEFCF7;
+    font-family: var(--second-font-family);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+.hero .hero-desc {
+    color: var(--white-text);
+    font-family: Barlow;
+    margin-bottom: 56px;
+}
+
+.hero a {
+    border-radius: 6px;
+    background: #66D2CF;
+    padding: 15px 31px 16px;
+    color: #FEFCF7;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+}
